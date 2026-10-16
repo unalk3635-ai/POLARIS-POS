@@ -1,0 +1,19 @@
+{
+    "name":  "polaris-pos",
+    "version":  "1.0.0",
+    "main":  "main.js",
+    "scripts":  {
+                    "start":  "electron .",
+                    "electron:build":  "electron-builder"
+                },
+    "dependencies":  {
+                         "cors":  "^2.8.5",
+                         "express":  "^4.18.2",
+                         "multer":  "^2.3.0",
+                         "sqlite3":  "^5.1.6"
+                     },
+    "devDependencies":  {
+                            "electron":  "^44.2.0",
+                            "electron-builder":  "^26.15.3"
+                        }
+}
